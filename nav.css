@@ -1,0 +1,30 @@
+nav {
+	width: auto;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.nav-list {
+	display: flex;
+	font-size: 40px;
+	text-align: center;
+	justify-content: space-evenly;
+	list-style-type: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+}
+li a {
+	padding: 10px;
+	margin: 0;
+}
+li a:link {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+li a:visited {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}

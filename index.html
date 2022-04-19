@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Art institute of Chicago</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="nav.css" />
+	</head>
+
+	<body>
+		<nav>
+			<ul class="nav-list">
+				<li>
+					<a href="index.html">Hem</a>
+				</li>
+				<li>
+					<a href="info.html">Info</a>
+				</li>
+			</ul>
+		</nav>
+		<h1>Konstverk</h1>
+		<div id="search">
+			<input
+				type="text"
+				name="searchBar"
+				id="searchBar"
+				placeholder="Sök på ett konstverk"
+			/>
+		</div>
+		<div class="grid-container"></div>
+		<div id="nyhetsbrev">
+			<label for="e-post">Nyhetsbrev</label>
+			<input id="e-post" placeholder="Mailadress" />
+			<input id="send" type="button" value="Acceptera" />
+			<p id="tack">Tack, du kommer nu få nyhetsbrev från oss.</p>
+			<div id="felmeddelande">
+				<p>Vänligen fyll i en e-postadress</p>
+			</div>
+		</div>
+		<footer>
+			<p id="textifooter">Art institute of Chicago</p>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
